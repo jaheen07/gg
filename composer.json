@@ -1,0 +1,25 @@
+{
+    "name": "iox/locationist",
+    "description": "get users locations",
+    
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iox\\Locationist\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iox\\Locationist\\LocationServiceProvider"
+            ],
+            "aliases": {
+                "Locationist": "Iox\\Locationist\\Facade"
+            }
+        }
+    }
+}
