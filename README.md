@@ -10,5 +10,6 @@
 5.type "use Iox\Locationist\Location" to import the class in your desire controller.
 
 
-###additional 
+###additional ###
+
 if laravel can't find the class then add "Iox\Locationist\LocationServiceProvider" into "provider" array in "config/app.php" directory .
