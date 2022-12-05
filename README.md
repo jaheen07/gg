@@ -12,4 +12,4 @@
 
 ###additional ###
 
-if laravel can't find the class then add "Iox\Locationist\LocationServiceProvider" into "provider" array in "config/app.php" directory .
+if laravel can't find the class then add "Iox\Locationist\LocationServiceProvider::class" into "provider" array in "config/app.php" directory .
