@@ -14,7 +14,7 @@ class Location{
         $result = json_decode($result);
 
         if($result->status == 'success'){
-            return $result;
+            return array('lat'=>$result->lat,'long'=>$result->lon);
         }
     }
 
